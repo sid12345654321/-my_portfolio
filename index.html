@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/ecbe5273bc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section class="header" id="headerid">
+    <nav>
+      <a href="index.html">
+        <h3 id="portfolio">SidHEART</h3>
+      </a>
+      <div class="nav-list">
+        <ul id="menu-list">
+          <button class="close-btn" onclick="fclose()">×</button>
+
+          <li><a href="#headerid">Home</a></li>
+          <li><a href="#aboutid">About</a></li>
+          <li><a href="#servicesid">Services</a></li>
+          <li><a href="#workid">My work</a></li>
+          <li><a href="#contactid">Contact</a></li>
+        </ul>
+      </div>
+      <i class=" fa-solid fa-bars open-btn" onclick="fopen()"></i>
+      <!-- <button class="open-btn" onclick="fopen()">⇶</button> -->
+    </nav>
+    <div class="home">
+      <div class="text-box">
+        <p>
+          Hello my name is
+        </p>
+        <h1> Siddharth parmar</h1>
+
+        <a href="" class="hero-btn">Hire me</a>
+      </div>
+      <div class="cover-img">
+        
+        
+      </div>
+
+  </section>
+
+  <!-- <section class="addas">
+      <h1>OUR OFFICES</h1>
+      <p>
+        places where we hangouts and do backchodis<br> smoke joint gand get high
+      </p>
+      <div class="addas-cont">
+        
+      <div class="adda-box">
+       <img src="j4.jpeg" alt="j4 ">
+       <h3>MAIN GATE</h3> -->
+       
+     <!-- </div>
+     <div class="adda-box">
+       <img src="g9.jpeg" alt="j4 ">
+       <h3>MAIN GATE</h3>
+     </div> 
+        <div class="adda-box">
+          <img src="maingate.jpeg" alt="j4 ">
+          <h3>MAIN GATE</h3>
+          
+        </div>
+        <div class="adda-box">
+          <img src="G6.jpeg" alt="j4 ">
+          <h3>MAIN GATE</h3>
+          
+        </div>
+        <div class="adda-box">
+          <img src="g5.jpeg" alt="j4 ">
+          <h3>MAIN GATE</h3>
+          
+        </div>
+        <div class="adda-box">
+          <img src="g7.jpeg" alt="j4 ">
+          <h3>MAIN GATE</h3>
+          
+        </div>
+         <div class="adda-box">
+          <img src="g8.jpeg" alt="j4 ">
+          <h3>MAIN GATE</h3>
+          
+        </div>
+        <div class="adda-box">
+          <img src="g9.jpeg" alt="j4 ">
+          <h3>MAIN GATE</h3>
+          
+        </div> 
+        </div> -->
+      <!-- </div>
+
+      </div>
+
+    </section> --> 
+  <div class="aboutcont" id="aboutid">
+    <div class="about">
+      <div class="disc1">
+        <img src="g10.jpeg" alt="">
+      </div>
+      <div class="discription">
+        <h1>About me</h1>
+        <p id="detail">I am Siddharth Parmar graduated from <span id="college">TECHNO INTERNATIONAL NEWTOWN</span> in 2022.I
+          have good experience of using html,css, javascript. I have done various projects on web development where
+          i have made both static and dynamic page.I have also experience of using bootstrap. currently, i am
+          looking for good opportunity for starting my IT career.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+
+        </div>
+        <div class="tab-containts">
+          <ul class="tab-dis active-cont" id="skills">
+            <li><span>Web Development</span><br>HTML ,CSS ,JAVASCRIPT</li>
+            <li><span>UX/UI</span><br>Design website interface </li>
+            <li><span>Programming Language</span><br>C,C++C,JAVASCRIPT</li>
+            <li><span>Other skills</span><br>Guitar,music,dance</li>
+
+          </ul>
+          <ul class="tab-dis" id="Experience">
+            <li><span>Work-Experience</span><br>Fresher </li>
+            <li><span>Web Development</span><br>handson experience on html,css,javascript</li>
+            <li><span>Other Experience</span><br>Music,dance</li>
+
+          </ul>
+          <ul class="tab-dis" id="Education">
+            <li><span>B.TECH</span><br>Branch-EE(2018-2022)<br>Cgpa-7.8
+              </span></li>
+            <li><span>Intermediate</span><br>School-T.R.N.R FATEGPUR COLLEGE
+              SHEOHAR<br>Stream-Science<br>percentage-71.3%
+            </li>
+            <li><span>Matriculation</span><br>School-D.A.V PUBLIC SCHOOL DARBHANGA ROAD MUZZ<br>Cgpa-10
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <section class="my-intreast" id="servicesid">
+    <h1>My Services </h1>
+    <p>We Should always give  priority to our work</p>
+    <div class="intrest-cont">
+      <div class="intrest-box">
+        <i class="fa-solid fa-code fa-2xl"></i>
+        <h3>Front-end development</h3>
+        <p>
+          I have desined several ux/ui according to clent requirements.
+          I also have knowledge of various libraries like bootstrap,ractjs,nodejs.
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div class="intrest-box ">
+        <i class="fa-solid fa-crop fa-2xl"></i>
+        <h3>UX/UI</h3>
+        <p>
+          I have desined many interfaces . I have created of ui of many food ordering site and also desined ui of some
+          of the game made by my me
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+      <div class="intrest-box">
+        <i class="fa-solid fa-guitar fa-2xl"></i>
+        <h3>Guitar trainer</h3>
+        <p>
+          I have 5 years experience of playing guitars.I also train people to play guitar in my free time.
+        </p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </section>
+  <div class="mywork" id="workid">
+    <h1>My work</h1>
+    <div class="work-cont">
+      <div class="work-box">
+        <img src="k3.jpg" alt="">
+        <div class="layer">
+          <h3>PIG GAME</h3>
+          <p>Its a two player game in which the one who scored early to 100 will win<p>
+          <a href=" https://sid12345654321.github.io/siddharth-basic-game/" target="_blank"><i class="fa-solid fa-link"></i></a>
+        </div>
+      
+      </div>
+      <div class="work-box">
+        <img src="k3.jpg" alt="">
+        <div class="layer">
+          <h3>Food ordering site</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quasi!</p>
+          <a href=""><i class="fa-solid fa-link"></i></a>
+        </div>
+      
+      </div>
+      <div class="work-box">
+        <img src="k3.jpg" alt="">
+        <div class="layer">
+          <h3>E-commerce site</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, quasi!
+          <a href=""><i class="fa-solid fa-link"></i></a>
+        </div>
+      
+      </div>
+
+    </div>
+     <div id="more-work">
+      <a href="">Show more</a>
+     </div>
+  </div>
+  <div class="contact-sec" id="contactid">
+    <div class="contact-cont">
+      <h1>Contact me</h1>
+      <p><i class="fa-solid fa-paper-plane-top"></i> siddharthparmarchanakyapuri@gmail.com </p>
+      <p><i class="fa-solid fa-phone"></i> 7439290497</p>
+      <div class="icon-sec">
+        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-square-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+      </div>
+      <a href="sid_resume.pdf" Download class="btn1 ">Download CV</a>
+    
+    </div>
+    <div class="right-cont">
+      <form action="" name="submit-to-google-sheet">
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="Email" placeholder="Your Email" required>
+        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn2">Submit</button>
+      </form>
+
+    </div>
+    
+  </div>
+  <div class="copyright">
+    <p>Copyright by Siddharth Parmar 💓💓💓</p>
+  </div>
+  <script>
+     var menuList = document.getElementById("menu-list");
+
+ function fclose() {
+       menuList.style.right = "-200px";
+       menuList.style.display = "none";
+     }
+     function fopen() {
+       menuList.style.right = "0px";
+       menuList.style.display = "block";
+     }
+    var tabLinks = document.getElementsByClassName("tab-links");
+    console.log(tabLinks);
+    var tabConts = document.getElementsByClassName("tab-dis")
+    function opentab(tabName) {
+      for (tabLink of tabLinks) {
+        tabLink.classList.remove("active-link");
+      }
+      for (tabCont of tabConts) {
+        tabCont.classList.remove("active-cont");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabName).classList.add("active-cont");
+
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbySopZlGmpvdi1cv6VLykSA1Q2HFhZqnPqwd8TFjLUIBIkd4LIisffrfDwokQ7owiIUkQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
